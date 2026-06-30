@@ -34,11 +34,11 @@ jobs:
         env:
           SHEET_ID: ${{ vars.SHEET_ID }}
           GOOGLE_SA_KEY_JSON: ${{ secrets.GOOGLE_SA_KEY_JSON }}
-          DB_NAME: ${{ secrets.BD_NAME }}
-          DB_HOST: ${{ secrets.DB_HOST }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-          DB_PORT: ${{ secrets.DB_PORT }}
-          DB_USER: ${{ secrets.DB_USER }}
+          PG_NAME: ${{ secrets.BD_NAME }}
+          PG_HOST: ${{ secrets.DB_HOST }}
+          PG_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          PG_PORT: ${{ secrets.DB_PORT }}
+          PG_USER: ${{ secrets.DB_USER }}
           PG_DB: ${{ secrets.PG_DB }}
           PG_TABLE: ${{ secrets.PG_TABLE }}
           WORKSHEET: ${{ secrets.WORKSHEET }}
